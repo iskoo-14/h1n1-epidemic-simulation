@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a complete simulation study of the 2009 H1N1 influenza pandemic using network-based epidemic modeling.
+This repository contains a simulation study of the 2009 H1N1 influenza pandemic using network-based epidemic modeling.
 
 The project was developed for the course *Network Dynamics and Learning* and includes:
 
@@ -12,7 +12,7 @@ The project was developed for the course *Network Dynamics and Learning* and inc
 - Parameter estimation using real epidemic data  
 - Model validation using RMSE  
 
-All implementations and experiments are contained in a single `h1n1-epidemic-simulation` notebook.
+All implementations and experiments are contained in `h1n1-epidemic-simulation` notebook.
 
 ## Epidemic Model
 
@@ -26,15 +26,15 @@ Each node represents an individual in one of three states:
 
 ### Infection Probability
 
-If a susceptible node has \( m \) infected neighbors:
+If a susceptible node has $ m $ infected neighbors:
 
 $$
 P(S \to I) = 1 - (1 - \beta)^m
 $$
 
 where:
-- \( \beta \) is the infection probability per contact  
-- \( m \) is the number of infected neighbors  
+- $ \beta $ is the infection probability per contact  
+- $ m $ is the number of infected neighbors  
 
 ### Recovery Probability
 
@@ -43,7 +43,7 @@ P(I \to R) = \rho
 $$
 
 where:
-- \( \rho \) is the recovery probability  
+- $ \rho $ is the recovery probability  
 
 ---
 
@@ -95,19 +95,22 @@ The optimal parameter set minimizes the RMSE between simulated and real infectio
 
 - Language: Python  
 - Libraries: NumPy, SciPy, NetworkX, Matplotlib  
-- All experiments are reproducible inside `hw3.ipynb`  
 
 ---
 
-## Results
+## Report
 
-The notebook produces:
+The file `report.pdf` contains the complete lab report, including:
 
-- Weekly newly infected individuals  
-- Weekly newly vaccinated individuals  
-- Total S / I / R / V populations over time  
-- Comparison between simulated and real epidemic data  
-- Estimated optimal epidemic parameters  
+- Detailed explanation of the SIR epidemic model  
+- Network generation methodology (k-regular and preferential attachment)  
+- Vaccination modeling strategy  
+- Parameter estimation procedure  
+- RMSE-based model validation  
+- Simulation results and plots  
+- Discussion of findings and conclusions  
+
+The report is written as a standalone document and can be read independently of the code.
 
 ---
 
