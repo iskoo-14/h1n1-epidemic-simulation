@@ -12,7 +12,7 @@ The project was developed for the course *Network Dynamics and Learning* and inc
 - Parameter estimation using real epidemic data  
 - Model validation using RMSE  
 
-All implementations and experiments are contained in `h1n1-epidemic-simulation` notebook.
+All implementations and experiments are contained in `hw3-epidemic-simulation` notebook.
 
 ## Epidemic Model
 
