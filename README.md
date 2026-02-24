@@ -77,9 +77,9 @@ To approximate the real epidemic dynamics:
 - The population is scaled down  
 - Real infection data is used as reference  
 - A gradient-based search is performed over:
-  - Average degree \( k \)  
-  - Infection probability \( \beta \)  
-  - Recovery probability \( \rho \)  
+  - Average degree k  
+  - Infection probability β   
+  - Recovery probability ρ
 
 Model accuracy is evaluated using Root Mean Square Error (RMSE):
 
