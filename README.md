@@ -26,15 +26,15 @@ Each node represents an individual in one of three states:
 
 ### Infection Probability
 
-If a susceptible node has $ m $ infected neighbors:
+If a susceptible node has m infected neighbors:
 
 $$
 P(S \to I) = 1 - (1 - \beta)^m
 $$
 
 where:
-- $ \beta $ is the infection probability per contact  
-- $ m $ is the number of infected neighbors  
+- β is the infection probability per contact  
+- m is the number of infected neighbors  
 
 ### Recovery Probability
 
@@ -43,7 +43,7 @@ P(I \to R) = \rho
 $$
 
 where:
-- $ \rho $ is the recovery probability  
+- ρ is the recovery probability  
 
 ---
 
