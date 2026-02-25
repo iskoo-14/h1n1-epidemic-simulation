@@ -1,3 +1,10 @@
+# Network Dynamics and Learning – Homework III
+
+**Academic Year 2025–2026**  
+Ismail Aljosevic (s337769)  
+Ana Parovic (s344174)
+
+
 # H1N1 Epidemic Simulation (2009)
 
 ## Overview
